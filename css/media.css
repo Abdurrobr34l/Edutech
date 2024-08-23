@@ -1,0 +1,606 @@
+/* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
+@media (max-width: 575.98px) {
+  /* COMMON STYLE CSS START */
+  .common-title h1 {
+    margin-top: 10px;
+  }
+  /* COMMON STYLE CSS END */
+
+  /* -- HEADER START -- */
+  header {
+    padding: 5px 0;
+  }
+  .logo img {
+    width: 80% !important;
+  }
+  .navigation-menu li {
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+  .m-auto {
+    text-align: center;
+  }
+  .navbar-nav .dropdown-menu {
+    border-color: #f2f0f3;
+    background-color: #f9fcff;
+    text-align: center;
+  }
+  .shopping-cart {
+    display: none;
+  }
+
+  .navbar-toggler {
+    width: 50px !important;
+    height: 40px !important;
+  }
+  /* -- HEADER END -- */
+
+  /* -- BANNER START -- */
+  .banner {
+    padding: 40px 12px;
+  }
+  .banner-heading {
+    font-size: 30px;
+  }
+  .banner-text p {
+    padding: 18px 0;
+  }
+  .texts {
+    font-size: 17px;
+    font-family: inter-400;
+  }
+  .banner-image {
+    margin-bottom: 30px;
+    height: 375px;
+  }
+  #banner-person {
+    width: 200px !important;
+    height: 366px !important;
+  }
+  .instructor-image {
+    width: 150px;
+    bottom: 340px;
+  }
+  .button-box {
+    padding: 24px 0;
+  }
+  .banner-button,
+  .common-button {
+    margin-bottom: 10px;
+  }
+  .second-button button {
+    margin-left: 0;
+  }
+  .trusted-image {
+    width: 290px;
+    height: 60px;
+  }
+  /* -- BANNER END -- */
+
+  /* -- FEATURE START -- */
+  :root {
+    --section-pad: 50px 0;
+    --heading-margin: 16px 0 50px;
+  }
+  .feature-box {
+    text-align: center;
+  }
+  /* -- FEATURE END -- */
+
+  /* ABOUT-US START */
+  .about-header {
+    padding: 0;
+  }
+  .about-image img {
+    margin-bottom: 30px;
+    width: 295px !important;
+    height: 230px !important;
+  }
+  .about-header .heading {
+    font-size: 30px !important;
+  }
+  .about-text .texts {
+    margin: 20px 0 16px;
+  }
+  .about-text .texts {
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  .counter-box {
+    margin-top: 20px;
+    padding: 24px 0;
+  }
+  .counter-box .counter,
+  .sign {
+    font-size: 40px;
+  }
+  .counter-box .texts {
+    font-size: 12px;
+  }
+  /* ABOUT-US END */
+
+  /* CLASS START */
+  .gallery-button-wrapper {
+    margin: 40px auto !important;
+    width: 280px;
+  }
+  .gallery-box {
+    margin: 15px 0;
+  }
+  /* CLASS END */
+
+  /* TESTIMONIAL START */
+  .testimonial-container {
+    margin-top: 50px;
+  }
+  .testimonial-box {
+    margin-top: 20px;
+  }
+  /* TESTIMONIAL END */
+
+  /* BLOG START */
+  .blog-wrapper {
+    margin: 50px inherit;
+  }
+  .blog-box {
+    margin-top: 20px;
+  }
+  .blog-info span {
+    font-size: 10px;
+  }
+  .blog-box h2 {
+    font-size: 16px;
+  }
+  .blog-button a {
+    font-size: 14px;
+  }
+  /* BLOG END */
+
+  /* CALL TO ACTION  START */
+  .call-action h1 {
+    font-size: 25px !important;
+  }
+  .call-to-action .input-group {
+    margin-top: 40px;
+    width: 295px;
+  }
+  .call-action-input span img {
+    right: -8px;
+    height: 25px;
+  }
+  .call-to-action .form-control {
+    width: 100px !important;
+  }
+  #call-input input {
+    padding: 30px 10px;
+  }
+  .call-to-action .input-group-text {
+    padding: 13px 10px;
+  }
+  /* CALL TO ACTION  END */
+
+  /* FOOTER START */
+  footer {
+    text-align: center;
+  }
+  .first-column {
+    padding-right: 0;
+  }
+  .footer-img-text {
+    justify-content: center;
+  }
+  .second-column h2 {
+    margin: 30px 0 16px;
+  }
+  /* FOOTER  END */
+}
+
+/* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* -- HEADER START -- */
+  header {
+    padding: 10px 0;
+  }
+  .navigation-menu li {
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+  .m-auto {
+    text-align: center;
+  }
+  .navbar-nav .dropdown-menu {
+    border-color: #f2f0f3;
+    background-color: #f9fcff;
+    text-align: center;
+  }
+  .shopping-cart {
+    display: none;
+  }
+  .search-box .input-group {
+    width: 350px;
+    margin: auto;
+  }
+  /* -- HEADER END -- */
+
+  /* -- BANNER START -- */
+  .banner {
+    padding: 50px 0;
+  }
+  .banner-image {
+    margin-bottom: 30px;
+  }
+  #banner-person {
+    width: 360px !important;
+  }
+  .instructor-image {
+    width: 280px;
+  }
+  /* -- BANNER END -- */
+
+  /* -- FEATURE START -- */
+  :root {
+    --section-pad: 60px 0;
+    --heading-margin: 16px 0 60px;
+  }
+  .feature-box {
+    text-align: center;
+  }
+  .feature-box h2 {
+    font-size: 19px;
+  }
+  .feature .texts {
+    font-size: 16px;
+  }
+  .feature-box h2 {
+    font-size: 18px !important;
+  }
+  .feature-box .mini-heading {
+    font-size: 14px;
+  }
+  /* -- FEATURE END -- */
+
+  /* ABOUT-US START */
+  .about-header {
+    padding: 0;
+  }
+  .about-image img {
+    margin-bottom: 30px;
+    width: 516px !important;
+  }
+  .about-text .texts {
+    margin: 30px 0 16px;
+  }
+  .counter-box {
+    margin-top: 30px;
+    padding: 24px 0;
+  }
+  .counter-box .counter,
+  .sign {
+    font-size: 35px;
+  }
+  .counter-box .texts {
+    font-size: 10px;
+  }
+  /* ABOUT-US END */
+
+  /* CLASS START */
+  .gallery-button-wrapper {
+    margin: 50px auto !important;
+    width: 400px;
+  }
+  .gallery-box {
+    margin: 15px 0;
+  }
+  .gallery-content h2 {
+    font-size: 18px;
+  }
+  .gallery-content .lesson,
+  .time {
+    font-size: 12px;
+  }
+  /* CLASS END */
+
+  /* TESTIMONIAL START */
+  .testimonial-container {
+    margin-top: 60px;
+  }
+  .testimonial-box {
+    margin-top: 20px;
+  }
+  /* TESTIMONIAL END */
+
+  /* BLOG START */
+  .blog-row {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-wrapper {
+    margin: 60px inherit;
+  }
+  .blog-box {
+    margin-top: 20px;
+  }
+  .blog-info span {
+    font-size: 10px;
+  }
+  .blog-box h2 {
+    font-size: 16px;
+  }
+  .blog-button a {
+    font-size: 14px;
+  }
+  /* BLOG END */
+
+  /* CALL TO ACTION  START */
+  .call-to-action .input-group {
+    margin-top: 50px;
+    width: 460px;
+  }
+  /* CALL TO ACTION  END */
+
+  /* FOOTER START */
+  footer {
+    text-align: center;
+  }
+  .first-column {
+    padding-right: 0;
+  }
+  .footer-img-text {
+    justify-content: center;
+  }
+  .second-column h2 {
+    margin: 40px 0 16px;
+  }
+  /* FOOTER  END */
+}
+
+/* MEDIUM DEVICES (TABLETS, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* -- HEADER START -- */
+  header {
+    padding: 15px 0;
+  }
+  .navigation-menu li {
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+  .m-auto {
+    text-align: center;
+  }
+  .navbar-nav .dropdown-menu {
+    border-color: #f2f0f3;
+    background-color: #f9fcff;
+    text-align: center;
+  }
+  .shopping-cart {
+    display: none;
+  }
+  .search-box .input-group {
+    width: 350px;
+    margin: auto;
+  }
+  /* -- HEADER END -- */
+
+  /* -- BANNER START -- */
+  .banner {
+    padding: 70px 0;
+  }
+  .banner-image {
+    margin-bottom: 30px;
+  }
+  #banner-person {
+    width: 370px !important;
+  }
+  .instructor-image {
+    bottom: 640px;
+    left: 50px;
+  }
+  /* -- BANNER END -- */
+
+  /* -- FEATURE START -- */
+  :root {
+    --section-pad: 70px 0;
+    --heading-margin: 16px 0 70px;
+  }
+  .feature-box {
+    text-align: center;
+  }
+  /* -- FEATURE END -- */
+
+  /* ABOUT-US START */
+  .about-header {
+    padding: 0;
+  }
+  .about-image img {
+    margin-bottom: 50px;
+    width: 600px !important;
+    height: 340px !important;
+  }
+  .about-text .texts {
+    margin: 30px 0 16px;
+  }
+  .counter-box {
+    margin-top: 40px;
+    padding: 24px 0;
+  }
+  .counter-box .counter,
+  .sign {
+    font-size: 55px;
+  }
+  .counter-box .texts {
+    font-size: 14px;
+  }
+  /* ABOUT-US END */
+
+  /* CLASS START */
+  .gallery-button-wrapper {
+    margin: 60px auto !important;
+  }
+  .gallery-box {
+    margin: 20px 0;
+  }
+  .gallery-button-container {
+    margin-top: 30px;
+  }
+  /* CLASS END */
+
+  /* TESTIMONIAL START */
+  .testimonial-container {
+    margin-top: 70px;
+  }
+  .testimonial-box {
+    margin-top: 20px;
+  }
+  /* TESTIMONIAL END */
+
+  /* BLOG START */
+  .blog-row {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-wrapper {
+    margin: 70px inherit;
+  }
+  .blog-box {
+    margin-top: 20px;
+  }
+  /* BLOG END */
+
+  /* CALL TO ACTION START */
+  .call-action .heading {
+    font-size: 30px !important;
+  }
+  .call-to-action .input-group {
+    padding-right: 3px;
+    width: 345px;
+  }
+  .call-to-action .input-group-text {
+    padding: 13px 13px;
+  }
+  /* CALL TO ACTION END */
+
+  /* FOOTER START */
+  .first-column {
+    padding-right: 0;
+  }
+  footer .texts {
+    font-size: 14px;
+    font-family: inter-400;
+  }
+  /* FOOTER END */
+}
+
+/* LARGE DEVICES (DESKTOPS, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* -- HEADER START -- */
+  header {
+    padding: 18px 0;
+  }
+  .navigation-menu li {
+    padding-right: 18px;
+  }
+  /* -- HEADER END -- */
+
+  /* -- BANNER START -- */
+  .banner {
+    padding: 90px 0;
+  }
+  .instructor-image {
+    width: 220px;
+  }
+  .instructor-image {
+    left: -20px;
+    bottom: 570px;
+  }
+  /* -- BANNER END -- */
+
+  /* -- FEATURE START -- */
+  .feature-box h2,
+  .feature-button {
+    margin: 20px 0;
+  }
+  .feature-box h2 {
+    font-size: 16px;
+  }
+  .feature .texts {
+    font-size: 16px;
+  }
+  .feature .mini-heading {
+    font-size: 14px;
+  }
+  /* -- FEATURE END -- */
+
+  /* ABOUT-US START */
+  .about-header {
+    padding: 0;
+  }
+  .about-image img {
+    width: 430px !important;
+    height: 340px !important;
+  }
+  .about-text .texts {
+    margin: 30px 0 16px;
+  }
+  .counter-box {
+    padding: 24px 10px;
+  }
+  /* ABOUT-US END */
+
+  /* CLASS START */
+  .gallery-box {
+    margin: 60px 0;
+  }
+  .gallery-content h2 {
+    font-size: 15px;
+  }
+  .gallery-content .lesson,
+  .time {
+    font-size: 10px;
+  }
+  /* CLASS END */
+
+  /* CALL TO ACTION START */
+  .call-to-action .input-group {
+    width: 455px;
+  }
+  /* CALL TO ACTION END */
+  .blog-wrapper {
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+  }
+
+  /* FOOTER START */
+  .first-column {
+    padding-right: 50px;
+  }
+  /* FOOTER END */
+}
+
+/* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* BANNER START */
+  .instructor-image {
+    width: 280px;
+  }
+  /* BANNER END */
+
+  /* ABOUT-US START */
+  .about-header {
+    padding: 0;
+  }
+  .about-image img {
+    width: 530px !important;
+    height: 380px !important;
+  }
+  /* ABOUT-US END */
+
+  /* CLASS START */
+  .gallery-content h2 {
+    font-size: 19px;
+  }
+  /* CLASS END */
+}
+
+/* EXTRA EXTRA LARGE DEVICES (LARGE DESKTOPS, 1400px and up) */
+@media (min-width: 1400px) {
+}

@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Edutech offers top-notch digital skills courses, including Figma, to help you master modern tools and boost your career. Start learning today!">
+  <meta name="keywords"
+    content="Digital skills, Online courses, Figma course, Learn Figma, UI/UX design, Graphic design, Figma tutorials, Design skills, Figma training,Skill development">
+  <meta name="author" content="Abdur Rob">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edutech</title>
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/aos-master/dist/aos.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- <link rel="stylesheet" href="css/media.css"> -->
+  <link rel="stylesheet" href="css/media.min.css">
+  <link rel="stylesheet" href="arrows.svg">
+  <!-- FAVICON ICON  -->
+  <link rel="icon" type="image/x-icon" href="image/header/logo.png">
+</head>
+
+<body>
+  <!-- SVG SPRITE -->
+  <div style="display: none;">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+      <!-- Right Arrow -->
+      <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+        <path d="M4 12h14l-5-5 1-1 7 7-7 7-1-1 5-5H4v-2z" />
+      </symbol>
+      <!-- Top Arrow -->
+      <symbol id="icon-arrow-top" viewBox="0 0 24 24">
+        <path d="M12 4l-7 7 1 1 5-5v14h2V7l5 5 1-1-7-7z" />
+      </symbol>
+
+    </svg>
+  </div>
+  <!-- GO TO TOP BUTTON -->
+  <div id="progress">
+    <span id="progress-value"><svg class="icon">
+        <use href="#icon-arrow-top"></use>
+      </svg></span>
+  </div>
+  <!-- HEADER START -->
+  <header id="header">
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container align-items-center">
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="index.html">
+          <img src="image/header/logo.png" alt="edutech logo" class="w-100">
+        </a>
+        <!-- HAMBURGER MENU -->
+        <div class="toggler">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#etnavbar"
+            aria-controls="etnavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <span class="toggler-svg">
+              <svg viewBox="0 0 100 80" width="25" height="30">
+                <rect width="100" height="15" rx="10"></rect>
+                <rect y="30" width="100" height="15" rx="10"></rect>
+                <rect y="60" width="100" height="15" rx="10"></rect>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="etnavbar">
+          <!-- NAVBAR MENU -->
+          <ul class="navbar-nav m-auto navigation-menu"> <!-- mb-2 mb-lg-0 -->
+            <li class="nav-item">
+              <a class="nav-link active js-scroll-trigger" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About us</a>
+            </li>
+            <!-- DROPDOWN MENU START -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Our Class
+                <div class="arrow">
+                  <div class="left"></div>
+                  <div class="right"></div>
+                </div>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item js-scroll-trigger" href="#class-box">Figma</a></li>
+                <li><a class="dropdown-item js-scroll-trigger" href="#class-box">Framework</a></li>
+                <li><a class="dropdown-item js-scroll-trigger" href="#class-box">Design Principle</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <li><a class="dropdown-item js-scroll-trigger" href="#class-box">Responsive Designing</a></li>
+              </ul>
+            </li>
+            <!-- DROPDOWN MENU END -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+          <!-- SEARCH BOX -->
+          <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+          <!-- SHOPPING CART -->
+          <div class="shopping-cart">
+            <img src="image/header/shopping-bag.png" alt="edutech shopping cart image" class="w-100">
+          </div>
+          <!-- SEARCH BOX -->
+          <form class="d-flex search-box" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Username"
+                aria-describedby="basic-addon1">
+              <span class="input-group-text" id="basic-addon1">
+                <img src="image/header/magnifying-glass.png" alt="edutech search button image">
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+  </header>
+  <!-- HEADER END -->
+
+  <!-- BANNER START -->
+  <section id="home" class="banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Banner Left Column -->
+        <div class="col-lg-6 p-0 banner-text order-2 order-lg-1" data-aos="fade-right">
+          <!-- Banner Text Start -->
+          <h1 class="banner-heading">Master Digital Skills with Ease!</h1>
+          <p class="texts">Unlock Digital Mastery Effortlessly! Explore and enhance your skills with our user-friendly
+            platform.</p>
+          <div class="students-box">
+            <!-- Banner Image Start -->
+            <div class="students-image">
+              <h3 class="mini-heading ps-3">Total students</h3>
+              <img src="image/banner/students.png" alt="edutech students image">
+            </div>
+          </div>
+          <!-- Banner Button Start -->
+          <div class="button-box">
+            <div class="banner-button button-hover">
+              <button type="button">Start Learning</button>
+            </div>
+            <div class="banner-button button-hover second-button">
+              <button type="button">Learn More</button>
+            </div>
+          </div>
+          <!-- Banner Trusted Mini-heading Start -->
+          <h3 class="mini-heading mb-1">Trusted by</h3>
+          <!-- Banner Trusted Image Start -->
+          <div class="trusted-image">
+            <!-- Box-1 -->
+            <div class="img-box image-1">
+              <img src="image/banner/img-1.png" alt="edutech trusted company images">
+            </div>
+            <!-- Box-2 -->
+            <div class="img-box image-2">
+              <img src="image/banner/img-2.png" alt="edutech trusted company images">
+            </div>
+            <!-- Box-3 -->
+            <div class="img-box image-3">
+              <img src="image/banner/img-3.png" alt="edutech trusted company images">
+            </div>
+            <!-- Box-4 -->
+            <div class="img-box image-4">
+              <img src="image/banner/img-4.png" alt="edutech trusted company images">
+            </div>
+          </div>
+        </div>
+        <!-- Banner Right Column -->
+        <div class="col-lg-6 banner-image order-1 order-lg-2" data-aos="fade-left">
+          <!-- <img src="image/banner/img.png" alt="edutech banner image" class="w-100"> -->
+          <img src="image/banner/banner-person.png" alt="edutech banner image" class="w-100" id="banner-person">
+          <img src="image/banner/instructor.png" alt="edutech banner image" class="instructor-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BANNER END -->
+
+  <!-- FEATURE START -->
+  <section id="feature" class="feature">
+    <!-- Common Title And Header Start -->
+    <div class="container common-title">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <div class="line"></div>
+          <h2 class="sub-heading">Why choose us</h2>
+          <!-- <h2 class="sub-heading">Why choose us</h2> -->
+          <h1 class="heading">Best Learning Experience</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Boxes Start -->
+    <div class="container">
+      <div class="row">
+        <!-- Box-1 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="feature-box">
+            <div class="icon-box">
+              <img src="image/feature/person.png" alt="edutech feature box image of a person">
+            </div>
+            <h2 class="mini-heading">Expert Instructor</h2>
+            <p class="texts">Empower yourself with the knowledge and skills gained...</p>
+            <div class="feature-button">
+              <a href="#" class="mini-heading">Learn More <svg class="icon">
+                  <use href="#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <!-- Box-2 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="feature-box">
+            <div class="icon-box">
+              <img src="image/feature/monitor-play.png" alt="edutech feature box image of a person">
+            </div>
+            <h2 class="mini-heading">Interactive Learning</h2>
+            <p class="texts">Empower yourself with the knowledge and skills gained...</p>
+            <div class="feature-button">
+              <a href="#" class="mini-heading">Learn More <svg class="icon">
+                  <use href="#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <!-- Box-3 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="feature-box">
+            <div class="icon-box">
+              <img src="image/feature/open-lock.png" alt="edutech feature box image of a person">
+            </div>
+            <h2 class="mini-heading">Lifetime Access</h2>
+            <p class="texts">Empower yourself with the knowledge and skills gained...</p>
+            <div class="feature-button">
+              <a href="#" class="mini-heading">Learn More <svg class="icon">
+                  <use href="#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <!-- Box-4 -->
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="feature-box">
+            <div class="icon-box">
+              <img src="image/feature/certificate.png" alt="edutech feature box image of a person">
+            </div>
+            <h2 class="mini-heading">Verified Certificate</h2>
+            <p class="texts">Empower yourself with the knowledge and skills gained...</p>
+            <div class="feature-button">
+              <a href="#" class="mini-heading">Learn More <svg class="icon">
+                  <use href="#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- FEATURE END -->
+
+  <!-- ABOUT US START -->
+  <section id="about" class="about-us">
+    <!-- About Us Image, Text Start -->
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- About Us Image Box Start -->
+        <div class="col-lg-6 col-md-12" data-aos="fade-right">
+          <div class="about-image">
+            <img src="image/about-us/image.webp" alt="edutech image of about us section" class="w-100">
+          </div>
+        </div>
+        <!-- About Us Text Start -->
+        <div class="col-lg-6 col-md-12" data-aos="fade-left">
+          <div class="about-text">
+            <!-- Common Title And Header Start -->
+            <div class="container common-title">
+              <div class="row">
+                <div class="col-lg-12 about-header">
+                  <div class="line"></div>
+                  <h2 class="sub-heading">About Us</h2>
+                  <h1 class="heading">E-Learning Platform for Digital Skills</h1>
+                  <p class="texts">Empower yourself with the knowledge and skills gained through online education! The
+                    key to your future!
+                    Empower yourself with the knowledge and skills gained through online education! The key to your
+                    future!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- About Button Start -->
+            <div class="about-button">
+              <div class="common-button button-hover">
+                <!-- <button type="button"><a href="#">Learn More <span class="btn-arrow">&#129122;</span></a></button> -->
+                <button type="button">Learn More <svg class="icon">
+                    <use href="#icon-arrow-right"></use>
+                  </svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About Us Counter Start -->
+      <div class="row">
+        <!-- Box-1 -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+          <div class="counter-box">
+            <div class="box">
+              <div class="counter" data-target="15">0</div>
+              <span class="sign">+</span>
+              <div class="label texts">Years of expereince</div>
+            </div>
+          </div>
+        </div>
+        <!-- Box-2 -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+          <div class="counter-box">
+            <div class="box">
+              <div class="counter" data-target="100">0</div>
+              <span class="sign">k</span>
+              <div class="label texts">Students worldwide</div>
+            </div>
+          </div>
+        </div>
+        <!-- Box-3 -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+          <div class="counter-box">
+            <div class="box">
+              <div class="counter" data-target="45">0</div>
+              <span class="sign">+</span>
+              <div class="label texts">Class subjects</div>
+            </div>
+          </div>
+        </div>
+        <!-- Box-4 -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+          <div class="counter-box">
+            <div class="box">
+              <div class="counter" data-target="98">0</div>
+              <span class="sign">%</span>
+              <div class="label texts">Students satisfactions</div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT US END -->
+
+  <!-- CLASS START -->
+  <section class="class">
+    <!-- Common Title And Header Start -->
+    <div class="container common-title">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <div class="line"></div>
+          <h2 class="sub-heading">Our Class</h2>
+          <!-- <h2 class="sub-heading">Why choose us</h2> -->
+          <h1 class="heading">Best selling class</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Class Pricing Gallery Start -->
+    <div class="container">
+      <div class="row">
+        <!-- Gallery Button Start -->
+        <div class="col-lg-12 gallery-column">
+          <div class="gallery-button-wrapper m-auto ">
+            <div class="filter-container gallery-button">
+              <button class="filter-btn texts active" onclick="filterGallery('all')">All</button>
+              <button class="filter-btn texts" onclick="filterGallery('ui-ux')">UI/UX Design</button>
+              <button class="filter-btn texts" onclick="filterGallery('web-dev')">Web Development</button>
+              <button class="filter-btn texts" onclick="filterGallery('data')">Data Science</button>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Boxes Start -->
+        <div class="container" id="class-box">
+          <div class="row justify-content-center gallery">
+            <!-- Box-1 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 item" data-price="ui-ux">
+              <div class="gallery-box">
+                <!-- Image -->
+                <div class="gallery-image">
+                  <img src="image/class/img-1.png" alt="edutech classes images" class="w-100">
+                </div>
+                <!-- Content -->
+                <div class="gallery-content">
+                  <!-- Title -->
+                  <h2 class="sub-heading">Introduction to Design System in Figma</h2>
+                  <div class="first-row">
+                    <span class="lesson"><img src="image/class/lessons.png" alt="edutech class section lesson image"> 16
+                      Lesson</span>
+                    <span class="float-end time"><img src="image/class/clock.png"
+                        alt="edutech class section time image"> 16
+                      Week</span>
+                  </div>
+                  <!-- <br> -->
+                  <div class="second-row">
+                    <span class="money">$350</span>
+                    <span class="float-end rate"><img src="image/class/star.png"
+                        alt="edutech class section rating image">
+                      4.9</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Box-2 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 item" data-price="data">
+              <div class="gallery-box">
+                <!-- Image -->
+                <div class="gallery-image">
+                  <img src="image/class/img-2.png" alt="edutech classes images" class="w-100">
+                </div>
+                <!-- Content -->
+                <div class="gallery-content">
+                  <!-- Title -->
+                  <h2 class="sub-heading">Introduction to Design Thinking Framework</h2>
+                  <div class="first-row">
+                    <span class="lesson"><img src="image/class/lessons.png" alt="edutech class section lesson image"> 17
+                      Lesson</span>
+                    <span class="float-end time"><img src="image/class/clock.png"
+                        alt="edutech class section time image"> 16
+                      Week</span>
+                  </div>
+                  <!-- <br> -->
+                  <div class="second-row">
+                    <span class="money">$360</span>
+                    <span class="float-end rate"><img src="image/class/star.png"
+                        alt="edutech class section rating image">
+                      4.7</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Box-3 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 item" data-price="ui-ux">
+              <div class="gallery-box">
+                <!-- Image -->
+                <div class="gallery-image">
+                  <img src="image/class/img-3.png" alt="edutech classes images" class="w-100">
+                </div>
+                <!-- Content -->
+                <div class="gallery-content">
+                  <!-- Title -->
+                  <h2 class="sub-heading">Design Principle and Fundamentals for UI Designer</h2>
+                  <div class="first-row">
+                    <span class="lesson"><img src="image/class/lessons.png" alt="edutech class section lesson image"> 15
+                      Lesson</span>
+                    <span class="float-end time"><img src="image/class/clock.png"
+                        alt="edutech class section time image"> 16
+                      Week</span>
+                  </div>
+                  <!-- <br> -->
+                  <div class="second-row">
+                    <span class="money">$340</span>
+                    <span class="float-end rate"><img src="image/class/star.png"
+                        alt="edutech class section rating image">
+                      4.8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Box-4 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 item" data-price="web-dev">
+              <div class="gallery-box">
+                <!-- Image -->
+                <div class="gallery-image">
+                  <img src="image/class/img-4-2.png" alt="edutech classes images" class="w-100">
+                </div>
+                <!-- Content -->
+                <div class="gallery-content">
+                  <!-- Title -->
+                  <h2 class="sub-heading">Designing Responsive Dashboard for Fintech in Figma</h2>
+                  <div class="first-row">
+                    <span class="lesson"><img src="image/class/lessons.png" alt="edutech class section lesson image"> 19
+                      Lesson</span>
+                    <span class="float-end time"><img src="image/class/clock.png"
+                        alt="edutech class section time image"> 16
+                      Week</span>
+                  </div>
+                  <!-- <br> -->
+                  <div class="second-row">
+                    <span class="money">$380</span>
+                    <span class="float-end rate"><img src="image/class/star.png"
+                        alt="edutech class section rating image">
+                      5.0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Button Start -->
+        <div class="container gallery-button-container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="common-button button-hover" id="gallery-button">
+                <!-- <button type="button"><a href="#">View all class <span class="btn-arrow">&#129122;</span></a></button> -->
+                <button type="button">View all class <svg class="icon">
+                    <use href="#icon-arrow-right"></use>
+                  </svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CLASS END -->
+
+  <!-- TESTIMONIAL Start -->
+  <section class="testimonial" id="testimonial">
+    <!-- Common Title And Header Start -->
+    <div class="container common-title">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <div class="line"></div>
+          <h2 class="sub-heading">Testimonial</h2>
+          <!-- <h2 class="sub-heading">Why choose us</h2> -->
+          <h1 class="heading">Student Testimonial</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial Start -->
+    <div class="container testimonial-container">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Row -->
+          <div class="carousel-item active">
+            <div class="row">
+              <!-- First Box -->
+              <div class="col-lg-4" data-aos="fade-right">
+                <div class="testimonial-box">
+                  <div class="people-info">
+
+                    <div class="people-img">
+                      <img src="image/testimonial/img-1.png" alt="edutech testimonial peoples image">
+                    </div>
+                    <div class="people-details">
+
+                      <h3 class="mini-heading">Michael Wrong</h3>
+                      <h4 class="sub-heading">UI/UX Designer Student</h4>
+                      <span><img src="image/class/star.png" alt="edutech testimonial peoples rating image"> 4.9</span>
+                    </div>
+
+                  </div>
+                  <p>
+                    Empower yourself with the knowledge and skills gained through online education! Empower yourself
+                    with the knowledge and skills gained through online education!
+                  </p>
+                </div>
+              </div>
+              <!-- Second Box -->
+              <div class="col-lg-4" data-aos="fade-up">
+                <div class="testimonial-box">
+                  <div class="people-info">
+
+                    <div class="people-img">
+                      <img src="image/testimonial/img-2.png" alt="edutech testimonial peoples image">
+                    </div>
+                    <div class="people-details">
+
+                      <h3 class="mini-heading">Abdur Rob</h3>
+                      <h4 class="sub-heading">Web Developer Student</h4>
+                      <span><img src="image/class/star.png" alt="edutech testimonial peoples rating image"> 4.8</span>
+                    </div>
+
+                  </div>
+                  <p>
+                    Empower yourself with the knowledge and skills gained through online education! Empower yourself
+                    with the knowledge and skills gained through online education!
+                  </p>
+                </div>
+              </div>
+              <!-- Third Box -->
+              <div class="col-lg-4" data-aos="fade-left">
+                <div class="testimonial-box">
+                  <div class="people-info">
+
+                    <div class="people-img">
+                      <img src="image/testimonial/img-3.png" alt="edutech testimonial peoples image">
+                    </div>
+                    <div class="people-details">
+
+                      <h3 class="mini-heading">Michael Wrong</h3>
+                      <h4 class="sub-heading">Data Science Student</h4>
+                      <span><img src="image/class/star.png" alt="edutech testimonial peoples rating image"> 5.0</span>
+                    </div>
+
+                  </div>
+                  <p>
+                    Empower yourself with the knowledge and skills gained through online education! Empower yourself
+                    with the knowledge and skills gained through online education!
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- Second Row -->
+          <div class="carousel-item">
+            <div class="row">
+              <!-- First Box -->
+              <div class="col-lg-4" data-aos="fade-right">
+                <div class="testimonial-box">
+                  <div class="people-info">
+
+                    <div class="people-img">
+                      <img src="image/testimonial/img-4.png" alt="edutech testimonial peoples image">
+                    </div>
+                    <div class="people-details">
+
+                      <h3 class="mini-heading">Wui Wrong</h3>
+                      <h4 class="sub-heading">UI/UX Designer Student</h4>
+                      <span><img src="image/class/star.png" alt="edutech testimonial peoples rating image"> 4.9</span>
+                    </div>
+
+                  </div>
+                  <p>
+                    Empower yourself with the knowledge and skills gained through online education! Empower yourself
+                    with the knowledge and skills gained through online education!
+                  </p>
+                </div>
+              </div>
+              <!-- Second Box -->
+              <div class="col-lg-4" data-aos="fade-up">
+                <div class="testimonial-box">
+                  <div class="people-info">
+
+                    <div class="people-img">
+                      <img src="image/testimonial/img-2.png" alt="edutech testimonial peoples image">
+                    </div>
+                    <div class="people-details">
+
+                      <h3 class="mini-heading">Abdur Rob</h3>
+                      <h4 class="sub-heading">Web Developer Student</h4>
+                      <span><img src="image/class/star.png" alt="edutech testimonial peoples rating image"> 4.8</span>
+                    </div>
+
+                  </div>
+                  <p>
+                    Empower yourself with the knowledge and skills gained through online education! Empower yourself
+                    with the knowledge and skills gained through online education!
+                  </p>
+                </div>
+              </div>
+              <!-- Third Box -->
+              <div class="col-lg-4" data-aos="fade-left">
+                <div class="testimonial-box">
+                  <div class="people-info">
+
+                    <div class="people-img">
+                      <img src="image/testimonial/img-1.png" alt="edutech testimonial peoples image">
+                    </div>
+                    <div class="people-details">
+
+                      <h3 class="mini-heading">Michael Wrong</h3>
+                      <h4 class="sub-heading">Data Science Student</h4>
+                      <span><img src="image/class/star.png" alt="edutech testimonial peoples rating image"> 5.0</span>
+                    </div>
+
+                  </div>
+                  <p>
+                    Empower yourself with the knowledge and skills gained through online education! Empower yourself
+                    with the knowledge and skills gained through online education!
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TESTIMONIAL END -->
+
+  <!-- BLOG START -->
+  <section class="blog" id="blog">
+    <!-- Common Title And Header Start -->
+    <div class="container common-title">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <div class="line"></div>
+          <h2 class="sub-heading">Blog</h2>
+          <h1 class="heading">Browse articles</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Blog Boxes Start -->
+    <div class="container blog-wrapper">
+      <div class="row blog-row">
+        <!-- Box-1 -->
+        <div class="col-lg-4 col-md-6 col-sm-6">
+          <div class="blog-box">
+            <img src="image/blog/img-1.png" alt="edutech blog boxes image" class="w-100">
+            <div class="blog-info">
+              <span><img src="image/blog/user.png" alt="edutech blog boxes user icon image"> Tom Kennedy</span>
+              <span><img src="image/blog/calendar.png" alt="edutech blog boxes calender icon image"> Feb 23, 2024</span>
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <div class="text-center"> <!-- this text-center class and extra div is used to make the button center-->
+              <div class="blog-button">
+                <a href="#" class="mini-heading">Read More <svg class="icon">
+                    <use href="#icon-arrow-right"></use>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Box-2 -->
+        <div class="col-lg-4 col-md-6 col-sm-6">
+          <div class="blog-box">
+            <img src="image/blog/img-2.png" alt="edutech blog boxes image" class="w-100">
+            <div class="blog-info">
+              <span><img src="image/blog/user.png" alt="edutech blog boxes user icon image"> Tom Kennedy</span>
+              <span><img src="image/blog/calendar.png" alt="edutech blog boxes calender icon image"> Feb 23, 2024</span>
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <div class="text-center"> <!-- this text-center class and extra div is used to make the button center-->
+              <div class="blog-button">
+                <a href="#" class="mini-heading">Read More <svg class="icon">
+                    <use href="#icon-arrow-right"></use>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Box-3 -->
+        <div class="col-lg-4 col-md-6 col-sm-6">
+          <div class="blog-box">
+            <img src="image/blog/img-3.png" alt="edutech blog boxes image" class="w-100">
+            <div class="blog-info">
+              <span><img src="image/blog/user.png" alt="edutech blog boxes user icon image"> Tom Kennedy</span>
+              <span><img src="image/blog/calendar.png" alt="edutech blog boxes calender icon image"> Feb 23, 2024</span>
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <div class="text-center"> <!-- this text-center class and extra div is used to make the button center-->
+              <div class="blog-button">
+                <a href="#" class="mini-heading">Read More <svg class="icon">
+                    <use href="#icon-arrow-right"></use>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Blog Last Button Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="common-button button-hover">
+            <!-- <button type="button"><a href="#">View All <span class="btn-arrow">&#129122;</span></a></button> -->
+            <button type="button">View All <svg class="icon">
+                <use href="#icon-arrow-right"></use>
+              </svg></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BLOG END -->
+
+  <!-- CALL TO ACTION START -->
+  <section class="call-action" id="contact">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Heading -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-right">
+          <h1 class="heading">
+            Join the world largest online learning platform
+          </h1>
+        </div>
+        <!-- E-mail Input -->
+        <div class="col-lg-6 offset-lg-2 col-md-6 call-to-action" data-aos="fade-left">
+          <div class="input-group call-action-input" id="call-input">
+            <span><img src="image/call-to-action/envelope.png" alt="edutech form input envelope image"></span>
+            <input type="text" class="form-control" placeholder="name@email.com" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <!-- <span class="input-group-text" id="basic-addon2" type="submit">Join Now</span>  This onw is my one which i got from bootstrap-->
+            <!-- <span class="input-group-text" id="basic-addon2">Join Now</span> IN VALIDATOR THEY SAID YOU CANNOT USE TYPE IN SPAN -->
+            <button class="input-group-text" id="basic-addon2" type="submit">Join Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CALL TO ACTION END -->
+
+  <!-- FOOTER START -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!-- First Column -->
+        <div class="col-lg-5 col-md-3">
+          <div class="first-column">
+            <div class="footer-img-text">
+              <img src="image/header/logo.png" alt="edutech website logo image">
+              <span class="sub-heading">Digilearn</span>
+            </div>
+            <p class="texts mt-4">
+              Unlock Digital Mastery Effortlessly!
+              Explore and enhance your skills
+              with our user-friendly platform.
+            </p>
+          </div>
+        </div>
+        <!-- Second Column -->
+        <div class="col-lg-2 col-md-3">
+          <div class="second-column">
+            <h2 class="sub-heading">Quick Links</h2>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#class-box">Our Class</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Third Column -->
+        <div class="col-lg-2 col-md-3">
+          <div class="second-column">
+            <h2 class="sub-heading">Resources</h2>
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fourth Column -->
+        <div class="col-lg-3 col-md-3">
+          <div class="second-column">
+            <h2 class="sub-heading">Social media</h2>
+          </div>
+          <!-- Social Media Icons Start -->
+          <div class="footer-social-icon">
+            <!-- Fcaebook -->
+            <a href="https://www.facebook.com/" target="_blank"><svg viewbox="0 0 512 512"
+                preserveAspectRatio="xMidYMid meet" width="40" height="40">
+                <path
+                  d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z">
+                </path>
+              </svg>
+            </a>
+            <!-- Twitter -->
+            <a href="https://x.com/Abdurrob_r34l" target="_blank">
+              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="40" height="40">
+                <path
+                  d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z">
+                </path>
+              </svg>
+            </a>
+            <!-- Github -->
+            <a href="https://github.com/Abdurrobr34l" target="_blank">
+              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="40" height="40">
+                <path
+                  d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z">
+                </path>
+              </svg>
+            </a>
+            <!-- Linkedin -->
+            <a href="https://www.linkedin.com/in/abdurrobr34l/" target="_blank">
+              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="40" height="40">
+                <path
+                  d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z">
+                </path>
+              </svg>
+            </a>
+            <!-- Youtube -->
+            <a href="https://www.youtube.com/@abdurrobr34l" target="_blank">
+              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="40" height="40">
+                <path
+                  d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copy Right -->
+    <div class="col-lg-12 text-center mt-5 copy-right">
+      <h3 class="mini-heading">Copyright © 2024 Edutech | All rights reserved | <a href="https://abdurrob.fun/"
+          target="_blank">Abdur
+          Rob</a></h3>
+    </div>
+  </footer>
+
+
+  <!-- JS + JQ LINK's -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- IT IS TO ACTIVATE AOS -->
+  <script>
+    AOS.init({
+      duration: 3000,
+      once: true,
+    });
+  </script>
+
+
+</body>
+
+</html>
